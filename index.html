@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="./style.css">
+
+	<title>Frontend Mentor | Intro section with dropdown navigation</title>
+</head>
+
+<body>
+
+	<header>
+		<div class="container">
+			<div class="logo-container">
+				<img src="./images/logo.svg" alt="Logo">
+			</div>
+			<div class="menu-container">
+			</div>
+			<nav class="navigation">
+				<ul class="first-nav-list">
+					<li class="no-mb">
+						<a href="#" class="dropdown dropdown-first">Features</a>
+						<div class="dropdown-first-content dropdown-content">
+							<ul class="dropdown-first-content-list dropdown-content-list">
+								<li>
+									<a href="#">Todo List</a>
+								</li>
+								<li>
+									<a href="#">Calendar</a>
+								</li>
+								<li>
+									<a href="#">Reminders</a>
+								</li>
+								<li>
+									<a href="#">Planning</a>
+								</li>
+							</ul>
+						</div>
+					</li>
+					<li class="no-mb">
+						<a href="#" class="dropdown dropdown-second">Company</a>
+						<div class="dropdown-second-content dropdown-content">
+							<ul class="dropdown-second-content-list dropdown-content-list">
+								<li>
+									<a href="#">History</a>
+								</li>
+								<li>
+									<a href="#">Our Team</a>
+								</li>
+								<li>
+									<a href="#">Blog</a>
+								</li>
+							</ul>
+						</div>
+					</li>
+					<li><a href="#">Careers</a></li>
+					<li><a href="#">About</a></li>
+				</ul>
+				<ul class="second-nav-list">
+					<li><a href="#">Login</a></li>
+					<li><a href="#" class="btn btn-register">Register</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<main>
+		<div class="main-container">
+			<div class="hero-img-box">
+				<picture>
+					<source media="(max-width: 768px)" srcset="./images/image-hero-mobile.png">
+					<img src="./images/image-hero-desktop.png" alt="Black Man Holding a Grey Computer">
+				</picture>
+			</div>
+			<div class="left">
+
+				<section class="text-align info">
+					<h1>
+						Make <br> remote work
+					</h1>
+					<p>
+						Get your team in sync, no matter your location. Streamline processes,
+						create team rituals, and watch productivity soar.
+					</p>
+					<a href="#" class="btn btn-black">Learn more</a>
+				</section>
+				<div class="featuredIn">
+					<img src="./images/client-databiz.svg" alt="Databiz">
+					<img src="./images/client-audiophile.svg" alt="Audiophile">
+					<img src="./images/client-meet.svg" alt="Meet">
+					<img src="./images/client-maker.svg" alt="Maker">
+				</div>
+			</div>
+		</div>
+
+	</main>
+	<footer>
+
+		<div class="attribution">
+			Challenge by <a
+				href="https://www.frontendmentor.io/challenges/intro-section-with-dropdown-navigation-ryaPetHE5"
+				target="_blank">Frontend Mentor</a>.
+			Coded by <a href="https://www.frontendmentor.io/profile/dinadess" target="_blank">Oshyeld</a>.
+		</div>
+
+	</footer>
+
+	<script src="./script.js"></script>
+</body>
+
+</html>
