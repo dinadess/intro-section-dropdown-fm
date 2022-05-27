@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Check out my solution on Frontend Mentor here](https://www.frontendmentor.io/solutions/intro-section-with-dropdown-css-flexbox-a2EAYQ1e6I)
+- Live Site URL: [Intro Section With Dropdown Live](https://dinadess.github.io/intro-section-dropdown-fm/)
 
 ## My process
 
